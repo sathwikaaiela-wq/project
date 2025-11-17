@@ -1,0 +1,48 @@
+<html>
+<head>
+<title>My Webpage</title>
+<style type="text/css">
+#main1 {
+width:200px;
+height:200px;
+border:1px solid grey;
+perspective:100px;
+perspective-origin:40% 40%;
+margin:100px;
+float:left;
+}
+#main2 {
+width:200px;
+height:200px;
+border:1px solid grey;
+margin:100px;
+float:left;
+perspective:100px;
+}
+#main1 #D1 {
+width:180px;
+height:130px;
+margin:20px;
+background-color: green;
+transform:rotateY(45deg);
+transform-origin:left;
+}
+#main2 #D2 {
+width:180px;
+height:130px;
+margin:20px;
+background-color: red;
+transform:rotate3d(0,1,1,45deg);
+}
+</style>
+</head>
+<body>
+
+<div id="main1">
+<div id="D1"></div>
+</div>
+<div id="main2">
+<div id="D2"></div>
+</div>
+</body>
+</html>
